@@ -1,0 +1,410 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #0f0f10;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+/* navbar */
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: 30px 0px;
+}
+.navbar img{
+    width: 30px;
+    height: 30px;
+}
+.navbar ul li{
+    list-style: none;
+    margin-left: 50px;
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-weight:700;
+    font-size: 14px;
+}
+.nav-menu{
+    display: flex;
+    justify-content:space-evenly;
+    gap: 100px;
+}
+.nav-menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    
+
+}
+.nav-menu button{
+    padding: 7px 40px;
+    background: #1e1e21;
+    border-radius: 7px;
+    font-weight: 400;
+    cursor: pointer;
+}
+/* Main section */
+.t-main{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin-top: 30pxs;
+    position: relative;
+}
+.t-main-left{
+    width: 230px;
+    position: relative;
+    top: -250px;
+}
+.t-main-right{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    margin-top: 50px;
+}
+img[alt="ear"]{
+    margin-left: 40px;
+}
+.t-main-right h1{
+    font-size: 50px;
+    margin-top: 20px;
+}
+.t-main-right h3{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.t-main-right p{
+    margin-top: 20px;
+    font-size: 13px;
+    font-weight: lighter;
+    opacity: 0.5;
+    letter-spacing: 1px;
+    line-height: 200%;
+}
+.top-btn{
+    margin-top: 70px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    border: none;
+    background: #1e1e21;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.top-btn img{
+    margin-left: 30px;
+    background: transparent;
+}
+.top-btn p{
+    margin-top: -3px;
+    background: transparent;
+}
+.top-btn h2{
+    background: transparent;
+    margin-right: 20px;
+    opacity: 0.8;
+}
+.brand-logo ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+.brand-logo ul li{
+    list-style: none;
+
+}
+.brand-logo ul li img{
+    margin: 0px 70px;
+}
+.specs{
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 100px;
+    opacity: 0.6;
+    
+
+}
+img[alt="specs"]{
+    width: 10vw;
+    
+}
+.specs-main{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-between;
+    margin-top: 60px;
+    align-items: center;
+    
+
+}
+.specs-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.specs-right img{
+    margin-left: 100px;
+
+}
+#bluetooth{
+    margin-left:50px;
+    margin-bottom: 40px;
+
+}
+.main-specs{
+    display: flex;
+    flex-direction: column;
+    margin-right: 150px;
+}
+.main-specs #battery{
+    margin-bottom: 40px;
+}
+#micro{
+    margin-left: 50px;
+    margin-top: 40px;
+}
+/*  Styling the case image */
+.case{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+img[alt="case-name"]{
+    width: 10vw;
+}
+.case .case-main{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 120px;
+}
+.case-right {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.case-right p{
+    font-size: 14px;
+    line-height: 190%;
+    opacity: 0.6;
+}
+.btn{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    padding: 15px 8px;
+    border: none;
+    background: #1e1e21;
+    border-radius: 10px;
+}
+.btn img{
+    background: transparent;
+}
+.btn p{
+    background: transparent;
+}
+/* show unit */
+.show{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    gap: 100px;
+    border-radius: 12px;
+    background-color: #1e1e21;
+    margin: 50px 300px;
+    padding: 50px 200px;
+    z-index: 1;
+}
+.showleft{
+    display: flex;
+    flex-direction: column;
+    line-height: 250%;
+    background-color:#1e1e21 ;
+    gap:10px
+}
+.showleft h3{
+    background-color: transparent;
+    font-weight: bolder;
+    font-size: 25px;
+}
+.showleft p{
+    background-color: transparent;
+    font-size: 15px;
+    opacity: 0.6;
+}
+.showright img{
+    background-color: #1e1e21;
+
+    
+}
+.bt2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 8vw;
+    align-items: center;
+    padding: 18px 14px;
+    border: none;
+    border-radius: 8px;
+}
+/* grid */
+.productTopImage{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.product{
+    display: grid;
+    grid-template-columns: repeat(2,200px);
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin-top: 100px;
+}
+.productList{
+    background-color: #1e1e21;
+    width: 200px;
+    height: 220px;
+    border-radius: 20px;
+    
+}
+img[alt="headphone"]{
+    height: 200px;
+    background-color: transparent;
+}
+.btnnPara{
+    background-color: #1e1e21;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 15px;
+
+    
+}
+.btnnPara .price{
+    opacity: 0.6;
+}
+.btnnPara p{
+    background-color: #1e1e21;
+}
+.btnn{
+    display: flex;
+    justify-content: center;
+    background-color: #1e1e21;
+    align-items: center;
+    gap:40px;
+}
+.btnnImg img{
+    background-color: #1e1e21;
+    margin-left: 5px;
+    
+    
+}
+
+.btnnImg{
+    border-radius: 10px;
+    width: 30px;
+    height: 43px;
+    
+}
+img[alt="shopBag"]{
+    background-color: #1e1e21;
+    margin-top: 10px;
+    
+}
+img[alt="headphone"]{
+    margin-top: -50px;
+    margin-left:30px ;
+}
+
+/* footer */
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+img[alt="beats"]{
+    margin-top: -90px;
+}
+.f-list{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.f-list h2{
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 90px;
+}
+.f-list a{
+    text-decoration: none;
+    opacity: 0.6;
+    font-weight: 900;
+    line-height: 30px;
+    cursor: pointer;
+}
+.f-list-input{
+    display: flex;
+    
+}
+input[type="email"]{
+    width: 300px;
+    height: 50px;
+    border: none;
+    position: relative;
+    background-color: #1e1e21;
+    border-radius: 8px;
+    padding: 0px 20px;
+}
+.f-list-input button{
+    border: none;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 2px;
+    display: flex;
+    border-radius: 10px;
+    padding: 10px 10px;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    
+}
+.f-list1{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.f-list1 .link img{
+    
+    margin-top: 25px;
+    margin-left: 10px;
+}
+img[alt="beat"]{
+    margin-top: -110px;
+}
+img[alt="beatss"]{
+    margin-top: 60px;
+}
